@@ -1,0 +1,172 @@
+/* Global Style Start*/
+
+body{
+	margin: 0;
+}
+
+.clearfix{
+	clear: both;
+
+}
+.text-center{
+	text-align: center;
+}
+.container{
+	max-width: 1170px;
+	margin:0 auto ;
+	/*background-color: red;*/
+	border: 1px solid grey;
+	padding: 30px;
+} 
+
+
+
+/* Global Style End*/
+
+
+
+/* Header Style-Start*/
+.header{
+	width: 100px;
+	padding: 2px 0px 67px 15px;
+	float: none;
+}
+.logo{
+	float: left;
+    padding-top: 36px;
+    padding-left: 5px;
+    display: contents;
+   
+
+
+}
+.logo img{
+	position: absolute;
+    left: 200px;
+    top: 6px;
+    /* z-index: 1; */
+    width: 50px;
+    height: 50px;
+	
+}
+.headerimage{
+	width: 1174px;
+    height: 110px;
+    margin: -91px -9px;
+    /* overflow: auto; */
+    /* display: inline-block; */
+    padding-bottom: 88px;
+
+}
+.headerimage img {
+    width: 1174px;
+    height: 134px;
+    margin: -9px -1px;
+    overflow: auto;
+    display: inline-block;
+    padding-bottom: 86px;
+}
+.userarea{
+	
+  position: absolute;
+  left: 1150px;
+  top: 28px;
+  z-index: 1;
+}
+.userarea a{
+	display: inline-block;
+	
+	padding: 0px 15px;
+	background-color: #d71f6d66;
+	line-height: 2;
+	color: white;
+	font-family: sans-serif;
+	text-decoration: none;
+	border-radius: 5px;
+	transition: all .25s;
+
+}	
+
+.userarea a:hover{
+	
+	background-color: #8e004b7d;
+}
+/* Header Style-End*/
+
+
+/* Menu Style --Start*/
+.menucontainer{
+	width: 1170px;
+	
+
+}
+.menu{
+	width: 100%;
+    display: -webkit-inline-box;
+    background-color: #03178fa1;
+    margin: 20px -12px -5px -10px;
+    float: none;
+}
+
+
+.menu ul li{
+	float: left;
+	list-style: none;
+}
+
+.menu ul li a{
+	padding-top: 0;
+	text-decoration: none;
+	line-height: 5px;
+	
+	margin: 10px;
+}
+.menu ul li a:hover{
+	background-color: red;
+}
+/* Menu Style --End*/
+
+.banner img{
+	height: auto;
+    margin: 7.5px -21px -22px -11px;
+}
+
+.item-tytle{
+	position: absolute;
+	margin: 27px 1px 1px -12px;
+}
+
+
+/* Grid Style --Start */
+
+.letest-post-sec{
+	width: 1170px;
+	padding: 17px 1px 1px 1px;
+}
+.row{
+	margin: 19px -17px 27px -1px;
+
+}
+.col-4{
+	width: 24%;
+    float: left;
+    margin: 27px 16px -13px -16px;
+    padding: 0 5px;
+}
+
+.col-4 article img{
+	width: 100%;
+
+}
+/* Grid Style --End */
+
+
+/* Footer start */
+.copyright{
+	background-color: #03178fa1;
+	color: white;
+	padding: 15px;
+}
+
+/* Footer end */
+
